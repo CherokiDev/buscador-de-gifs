@@ -13,7 +13,7 @@ export const App = () => {
 
   return (
     <>
-      <h1>Buscador de Gifs</h1>
+      <h1>Buscador de Gifs (prueba)</h1>
 
       <AddCategory onNewCategory={(value) => onAddCategory(value)} />
 
