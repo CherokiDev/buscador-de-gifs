@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-
 export const getGifs = async (category) => {
   const url = `https://​api.giphy.com/v1/gifs/search?api_key=CzKGDDg4fDaWNHZ8H4B1SHjc5jbPcsmH&q=${category}&limit=10`;
   const resp = await fetch(url);
@@ -13,3 +11,5 @@ export const getGifs = async (category) => {
 
   return gifs;
 };
+
+// Esta función tiene como parámetro una categoría y retorna un arreglo de objetos
